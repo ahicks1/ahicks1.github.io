@@ -1,61 +1,58 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
-      <!--link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <style>
+  <section class="hero is-info is-fullheight">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <header class="navbar">
 
-      html,body {
-        margin: 0;
+    </header>
+  </div>
 
-        height: 100%;
-      }
-      .flex-par{
-        display: flex;
-        flex-flow: row;
-        height: 100%;
-      }
-      .main {
-        flex:1;
-        display:flex;
-      }
-        .sidebar {
-          background-color: #344e5e;
-          flex:1;
-
-        }
-        .mainContent {
-          flex:4;
-        }
-      </style>
-    </head>
-
-    <body>
-      <div class="main flex-par">
-
-        <div class="sidebar">
-          <p>Tis the season for donning gay apparel</p>
-          Banana
-          Ananana
-          ANAALALR
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column is-one-third">
+          <figure class="image is-1by1">
+            <img src="img/logo.png">
+          </figure>
         </div>
-        <div class="mainContent fillH">
-
-          <!--Main Body-->
-          <div class="container">
-            Hello world
-          </div>
-        </div>
-
+        <div class="column"></div>
       </div>
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
-    </body>
-  </html>
+      <h1 class="title">
+        Title
+      </h1>
+      <h2 class="subtitle">
+        Subtitle
+      </h2>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+
+  </div>
+</section>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
+  </body>
+</html>
