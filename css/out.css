@@ -9,7 +9,12 @@
 }
 
 .card {
+  transition: box-shadow .3s;
   height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(11,11,11,.4);
 }
 
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
